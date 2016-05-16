@@ -1,0 +1,15 @@
+{
+  "name": "ullr",
+  "script": "index.js",
+  "actions": [
+    {
+      "function": "hello",
+      "aliases": ["hello"],
+      "acls": {
+        "dm": true,
+        "channels": [ "gynoid_manage"]
+      },
+      "premessage": "Looking what to say..."
+    }
+  ]
+}
